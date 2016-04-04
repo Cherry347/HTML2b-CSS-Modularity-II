@@ -1,10 +1,78 @@
 body {
-    backgroud-color: #493;
+    font-family: Helvetica;
 }
-.big-h1{
-    font-size: 40px;
-    font-family: Fantasy;
+.instruction-text {
+    color: #084B8A;
+    font-family: Helvetica;
+    font-size: 165%;
 }
-h1.big-h1 > strong {
-    font-size:60px;
+.first td {
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    height: 35px;
+    width: 160px;
+}
+.second td {
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    height: 35px;
+    width: 160px;
+}
+.first tr:nth-child(3) td {
+    border-bottom: none;
+}
+.second tr:nth-child(3) td {
+    border-bottom: none;
+}
+.third {
+    border-top: 1px solid #ddd;
+}
+.third td div {
+    font-size: 2em;
+    width: 60px;
+    
+}
+.third td div:nth-child(2) {
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+    font-size: 30%;
+}
+.fourth td {
+   width: 300px; 
+   color: #ffffff;
+}
+.fourth td div {
+    background: #81BEF7;
+    border-radius: 3px;
+}
+#idOne {
+    width:850px;
+    height: 500px;
+    background-color:#6E6E6E;
+}
+#idTwo {
+    width: 500px;
+    height:250px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-left: 175px;
+}
+#idThree {
+    border-radius: 5px;
+    background-color:#F5A9BC;
+    height: 30px;
+    width: 95px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+img {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.tab {
+    margin-left: 50px;
 }
