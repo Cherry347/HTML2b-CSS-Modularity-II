@@ -2,77 +2,158 @@ body {
     font-family: Helvetica;
 }
 .instruction-text {
-    color: #084B8A;
-    font-family: Helvetica;
-    font-size: 165%;
-}
-.first td {
-    border-bottom: 1px solid #ddd;
-    font-size: 18px;
-    height: 35px;
-    width: 160px;
-}
-.second td {
-    border-bottom: 1px solid #ddd;
-    font-size: 18px;
-    height: 35px;
-    width: 160px;
-}
-.first tr:nth-child(3) td {
-    border-bottom: none;
-}
-.second tr:nth-child(3) td {
-    border-bottom: none;
-}
-.third {
-    border-top: 1px solid #ddd;
-}
-.third td div {
-    font-size: 2em;
-    width: 60px;
+    color: DarkSlateBlue;
+    font-size: 20px;
     
 }
-.third td div:nth-child(2) {
-    border-bottom: 1px solid #ddd;
-    color: #ddd;
-    font-size: 30%;
+
+.firstSet img {
+    display: inline-block;
+    margin: 20px;
 }
-.fourth td {
-   width: 300px; 
-   color: #ffffff;
+.thirdSet {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.fourth td div {
-    background: #81BEF7;
-    border-radius: 3px;
+.fourthSet {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-#idOne {
-    width:850px;
-    height: 500px;
-    background-color:#6E6E6E;
+.strtLine {
+    padding-bottom:120px;
 }
-#idTwo {
-    width: 500px;
-    height:250px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    text-align:center;
-    margin-left: 175px;
+.strtLine li {
+    display: inline-block;
 }
-#idThree {
-    border-radius: 5px;
-    background-color:#F5A9BC;
-    height: 30px;
-    width: 95px;
-}
-a {
+.buyNowButton {
+    background-color: LightCoral;
     color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:20px 65px 20px 65px;
+}
+.learnMore {
+    background-color: LightCoral;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+}
+.ok {
+    background-color: LightCoral;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+#firstButtonSet {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.learnMoreTwo {
+    background-color: LightCoral;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+}
+.accept {
+    background-color: LightCoral;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    padding: 10px 35px 10px 35px;
+}
+.value {
+    background-color: LightCoral;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    padding: 10px 35px 10px 35px;
+}
+#secButtonSet {
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+.navBar {
+    background-color: LightCoral;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.navBar li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right:30px;
+}
+.navBar li a {
+    color: #ffffff;
+    font-size: 17px;
     text-decoration: none;
 }
-img {
-    float: left;
-    margin-right: 10px;
-    overflow: hidden;
+.pig {
+    padding-bottom:80px;
 }
-.tab {
-    margin-left: 50px;
+.pig li {
+    display:inline-block;
 }
+.pig li a {
+    color: LightCoral;
+    font-size: 17px;
+    padding-right:5px;
+    padding-left:5px;
+}
+.lightPig {
+    color: #ddd;
+}
+#noLine1 a {
+    text-decoration: none;
+}
+#noLine2 a {
+    text-decoration: none;
+}
+.awesomeBox {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: clip;
+    max-width:245px;
+}
+.tabs li {
+display: inline-block;
+padding-right: .5em;
+}
+.tabs a { 
+    text-decoration: none;
+}
+li a div {
+    height: 25px;
+    width: 50px;
+    border: 1px solid DarkSlateBlue;
+    border-radius: 5px;
+    border-bottom: none;
+    padding:.2em .4em 0em .4em;
+    text-align: center;
+}
+.whiteTab {
+    text-decoration: underline papayawhip 5px;
+}
+.bigBox {
+    height: 170px;
+    width: 900px;
+    border: 1px solid DarkSlateBlue;
+    border-radius: 5px;
+    padding: .7em;
+    
+}
+    .bigBox p {
+        font-size: 15px;
+    }
